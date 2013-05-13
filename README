@@ -1,0 +1,31 @@
+Hungry Birds - README
+========================
+ 
+ Hungry Birds
+ Copyright (C) 2013
+ Author: 	Luca Contri
+ Contact:	LucaContri86@gmail.com
+
+========================
+ 
+Hungry Birds is a classical example of producer/consumer problem.
+I have used different software skills to resolve this problem.
+
+
+=== SOLUTION ===
+
+First Solution	
+	Folder:	Thread/
+	Topic: 	In this case Thread Concepts are been used.
+		In particular, the program uses multi-thread and shared 
+		global variable.
+			
+Second Solution	
+	Folder:	Process/
+	Topic: 	In this case Process Concepts are been used.
+		The application uses a different Process for any element
+		of the problem with exception of the worms' plate, for 
+		that element, a shared kernel memory is been used.
+		There are two version of the program: one with a single 
+		"exe" file, other with a parent and a child executable file.  
+	
