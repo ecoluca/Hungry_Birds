@@ -156,8 +156,8 @@ int main(int argc, char* argv[])
     size_t  shm_size;
     
     /* Declared Semaphore Variable */
-    int pshared = SEM_ACCESS;
-    unsigned int value = SEM_START;
+    //int pshared = SEM_ACCESS;
+    //unsigned int value = SEM_START;
 
     printf("[%d]\n", SEM_ACCESS);
     fflush(stdout);

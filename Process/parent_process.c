@@ -70,10 +70,10 @@ void parent_create (void) ;
 int main(int argc, char* argv[]){
 
     /* Declared Shared Memory Variables */
-    struct SH_MEMORY *food ;
+    //struct SH_MEMORY *food ;
     key_t  shm_key;
     size_t  shm_size;
-    int  shm_flg;
+    //int  shm_flg;
 
     int shm_id;
 
