@@ -44,7 +44,7 @@ clean :
 		child_process \
 		parent_process
 
-cleanall:
+distclean:
 	rm -rf *.o
 	rm -rf *~
 	rm -fr *#
